@@ -1,0 +1,8 @@
+tipos de dados Set e Map
+
+neon.tech
+npm instal postgress
+
+variaveis de ambiente
+
+npm i dotenv -D

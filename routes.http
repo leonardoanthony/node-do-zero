@@ -1,0 +1,30 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "Aula 02 - PHP",
+    "description": "Este é o video 02",
+    "duration": 200
+}
+
+###
+
+GET http://localhost:3333/videos
+###
+
+GET http://localhost:3333/videos?search=php
+
+###
+
+PUT http://localhost:3333/videos/88ed32e4-4ead-40e4-a6c5-0ac88ca0d268
+Content-type: application/json
+
+{
+    "title": "Aula 02 - PHP",
+    "description": "Este é o segundo video",
+    "duration": 200
+}
+
+###
+
+DELETE http://localhost:3333/videos/88ed32e4-4ead-40e4-a6c5-0ac88ca0d268
