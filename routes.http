@@ -1,22 +1,22 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-z3nf.onrender.com/videos
 Content-type: application/json
 
 {
-    "title": "Aula 02 - PHP",
-    "description": "Este é o video 02",
+    "title": "Aula 03 - PHP",
+    "description": "Este é o video 03",
     "duration": 200
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-z3nf.onrender.com/videos
 ###
 
-GET http://localhost:3333/videos?search=php
+GET https://node-do-zero-z3nf.onrender.com/videos?search=php
 
 ###
 
-PUT http://localhost:3333/videos/88ed32e4-4ead-40e4-a6c5-0ac88ca0d268
+PUT https://node-do-zero-z3nf.onrender.com/videos/88ed32e4-4ead-40e4-a6c5-0ac88ca0d268
 Content-type: application/json
 
 {
@@ -27,4 +27,4 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/88ed32e4-4ead-40e4-a6c5-0ac88ca0d268
+DELETE https://node-do-zero-z3nf.onrender.com/videos/33504f9f-12c8-4ada-9a99-4bba10659c66
